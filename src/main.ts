@@ -1,10 +1,7 @@
-// Core
 import { Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-
-// Utils
 import { ENV } from './utils';
 
 (async () => {
